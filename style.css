@@ -123,11 +123,32 @@ h4 {
     margin-bottom: 60px;
 }
 
+.subscribe-section {
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    background-color: rgb(255 244 214);
+}
+
 .subscribe {
-    width: 70%;
-    height: 200px;
-    background-color: #fff4d6;
-    margin-left: 15%;
+    margin-top: 50px;
+    border: none;
+    text-align: center;
+    width: 350px;
+    height: 40px;
+    background-color: #eaeae3;
+
+}
+
+.subscribe-btn {
+    margin-top: 50px;
+    padding: 9px;
+    text-align: center;
+    background-color: #FF5959;
+    height: 40px;
+    width: 150px;
+    color: white;
 }
 
 footer {

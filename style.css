@@ -1,0 +1,144 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 0%;
+}
+
+header {
+    background-image: url("images/donation1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    color: white;
+    text-align: center;
+}
+
+button {
+    background-color: #FF5959;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.donate {
+    padding-top: 200px;
+}
+
+.donate h1 {
+    font-size: 40px;
+}
+
+.donate-amount {
+    display: flex;
+    margin-left: 25%;
+
+}
+
+.donate-amount h1 {
+    background-color: #beb6b6;
+    padding: 30px 30px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.donate-today {
+    padding-top: 100px;
+    text-align: center;
+}
+
+#amount {
+    color: #FF5959;
+    border: 2px solid #FF5959;
+    background-color: #d69999;
+}
+
+h4 {
+    border-bottom: 1px solid #b3b3b3;
+    color: #b3b3b3;
+
+}
+
+.donate-plan {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.donate-item {
+    display: flex;
+}
+
+.item {
+    width: 350px;
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 50px;
+    background-color: #d69999;
+    padding: 10px 10px;
+}
+
+.food {
+    background-color: #EDF5F6;
+}
+
+.shelter {
+    background-color: #FFEEEE;
+}
+
+.education {
+    background-color: #FFF4D6;
+}
+
+.change-together {
+    display: flex;
+}
+
+.funds {
+    width: 30%;
+    margin-left: 4%;
+    text-align: justify;
+    padding: 10px 10px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 40px #888888;
+}
+
+.funds img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+#together {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.updates {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+.subscribe {
+    width: 70%;
+    height: 200px;
+    background-color: #fff4d6;
+    margin-left: 15%;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: black;
+    height: 140px;
+    color: #FFEEEE;
+    text-align: center;
+}
+
+footer p {
+    padding-top: 70px;
+    font-size: large;
+}

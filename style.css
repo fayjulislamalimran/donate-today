@@ -1,8 +1,9 @@
 body {
     font-family: 'Poppins', sans-serif;
-    margin-top: 0%;
+    margin: 0%;
 }
 
+/* This is a header */
 header {
     background-image: url("images/donation1.jpg");
     background-repeat: no-repeat;
@@ -32,6 +33,16 @@ button {
     font-size: 40px;
 }
 
+/* This is a Donate Today */
+.donate-today h5 {
+    color: grey;
+}
+
+.donate-today {
+    padding-top: 100px;
+    text-align: center;
+}
+
 .donate-amount {
     display: flex;
     margin-left: 25%;
@@ -46,23 +57,13 @@ button {
     font-weight: bold;
 }
 
-.donate-today {
-    padding-top: 100px;
-    text-align: center;
-}
-
 #amount {
     color: #FF5959;
     border: 2px solid #FF5959;
     background-color: #d69999;
 }
 
-h4 {
-    border-bottom: 1px solid #b3b3b3;
-    color: #b3b3b3;
-
-}
-
+/* This is a Donate Plan */
 .donate-plan {
     margin-top: 100px;
     text-align: center;
@@ -93,6 +94,7 @@ h4 {
     background-color: #FFF4D6;
 }
 
+/* This is a Change Together Funds */
 .change-together {
     display: flex;
 }
@@ -117,12 +119,14 @@ h4 {
     margin-bottom: 30px;
 }
 
+/* This is a updates */
 .updates {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 60px;
 }
 
+/* This is a subscribe */
 .subscribe-section {
     margin-left: 25%;
     text-align: center;
@@ -151,6 +155,7 @@ h4 {
     color: white;
 }
 
+/* This is a footer */
 footer {
     margin-top: 100px;
     background-color: black;

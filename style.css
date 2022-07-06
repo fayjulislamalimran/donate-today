@@ -5,7 +5,7 @@ body {
 
 /* This is a header */
 header {
-    background-image: url("images/donation1.jpg");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1) 10%, rgba(0, 0, 0, 0) 100%), url("images/donation1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;

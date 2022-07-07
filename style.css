@@ -34,17 +34,21 @@ button {
 }
 
 /* This is a Donate Today */
+.donate-today {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.donate-today label {
+    color: #beb6b6;
+}
+
 #other-amount {
     border: none;
     border-bottom: 1px solid #808080;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 40px;
-}
-
-.donate-today {
-    padding-top: 100px;
-    text-align: center;
 }
 
 .donate-amount {

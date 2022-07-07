@@ -34,11 +34,12 @@ button {
 }
 
 /* This is a Donate Today */
-.donate-today h5 {
-    color: grey;
+#other-amount {
+    border: none;
     border-bottom: 1px solid #808080;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
 }
 
 .donate-today {
@@ -131,6 +132,7 @@ button {
 
 /* This is a subscribe */
 .subscribe-section {
+    position: relative;
     margin-left: 25%;
     text-align: center;
     width: 50%;
@@ -148,14 +150,17 @@ button {
 
 }
 
-.subscribe-btn {
+#subscribe-btn {
     margin-top: 50px;
+    margin-right: 10px;
     padding: 9px;
     text-align: center;
     background-color: #FF5959;
     height: 40px;
     width: 150px;
     color: white;
+    border-radius: 0%;
+    margin-left: 0%;
 }
 
 /* This is a footer */
